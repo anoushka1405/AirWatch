@@ -22,3 +22,7 @@ data/processed/
 
 # VS Code
 .vscode/
+
+# Database
+*.sql.backup
+*.dump
