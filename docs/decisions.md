@@ -35,3 +35,17 @@ The repository should contain source code and documentation, not generated files
 
 ### Status
 Accepted
+
+## Decision: Data ingestion approach
+
+Date: 2026-07-10
+
+For the first version of AirWatch, we will use historical air quality CSV data instead of building an API pipeline.
+
+Reason:
+- Faster to validate database schema and analytics workflow
+- Easier reproducibility
+- Raw data can be stored unchanged before processing
+
+Future improvement:
+- Add live API ingestion once the core pipeline is stable.
